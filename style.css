@@ -1,0 +1,102 @@
+/*
+font-family: 'Mouse Memoirs', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DDD7E2;    
+}
+
+.container{
+    margin: 20px 50px 50px 50px;
+    
+}
+
+.container header{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: x-large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.menu{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: orangered;
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.fast1{
+    height: 350px;
+    width: 350ox;
+    margin-top: 10px ;
+    display: block;
+    margin-left: auto;
+    border: 1px solid black;
+    
+}
+.pic1{
+    float: right;
+    margin-left: 10px ;
+}
+
+h1{
+    font-family: 'Mouse Memoirs', sans-serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    color: #ED6A58;
+    
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+
+.food-container{
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    grid-template-rows: 256px 256px 256px;
+    gap: 35px;
+    justify-content: right;
+    
+}
+
+.box{
+    background-color: #d3b7cc;
+    padding: 15px;
+    margin-top: 50px;
+    height: 250px;
+    
+
+}
+
+.png{
+    display: block;
+    padding-left: 30%;
+    
+}
+

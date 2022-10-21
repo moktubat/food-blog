@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <style>
+      body{
+        background-image: url(image/inpic.jpg);
+        background-size: auto;
+        font-family: monospace;
+        margin: auto;
+        padding: 30px;
+      }
+      h1{
+        font-family: 'Mouse Memoirs', sans-serif;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+        margin-top: 10px;
+        color: #ffffff;
+      }
+
+      form{
+        background-color: #f34f43;
+        box-shadow: 3px 3px 8px rgb(65, 56, 56);
+        padding: 30px;
+        padding-top: 5px;
+        margin: 110px auto ;
+        height: 335px;
+        width: 270px;
+        font-size: 13px;
+        font-family: 'Source Sans Pro', sans-serif;
+      }
+      button{
+        height: 60px;
+        width: 160px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Mouse Memoirs', sans-serif;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+        border-radius: 15px;
+        margin-left: 20%;
+        margin-bottom: 10px;
+        
+      }
+
+      .frgtps{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        margin-left: 20%;
+        text-decoration: none;
+        color: white;
+        
+      }
+
+      button:hover{
+        background-color: #EFE6DC;
+        color: orangered;
+        cursor: pointer;
+        font-size: xx-large;
+        border-radius: 20px;
+      }
+
+      .frgtps:hover{
+        background-color: #EFE6DC;
+        color: orangered;
+        cursor: pointer;
+        font-size: large;
+        border-radius: 5px;
+        padding: 5px;
+        text-decoration: underline;
+      }
+
+      input{
+        color: #f30b17;
+        font-size: large;
+        font-weight: bold;
+        margin-top: 5px;
+        border-radius: 15px;
+        padding: 8px;
+      }
+
+      input:hover{
+        background-color: #DDD7E2;
+        
+      }
+
+      .bal{
+        font-size: 15px;
+        font-weight: bolder;
+        margin-left: 30px;
+        
+      }
+      .snp{
+        color: #CCCCFE;
+        text-decoration: none;
+      }
+      .snp:hover{
+        color: #00fd22;
+        text-decoration: underline;
+        font-size: 18px;
+      }
+      .remember{
+        font-size: 15px;
+        font-weight: bolder;
+        margin-left: 60px;
+      }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+          <h1>Login in your account.</h1>
+          <label></label>
+          <label></label>
+          <input type="email" required="required" placeholder="Email Address">
+        </div> <br> 
+        <div>
+          <label></label>
+          <input type="password" required="required" placeholder="Password">
+        </div>
+        
+        <p class="remember"><input type="checkbox" name="remember" id="remember">Remember password?</p>
+        <button type="submit">Sign In</button>
+        <a class="frgtps" href="http://">Forgot Password?</a>
+        <p class="bal">Don't have account? <a class="snp" href="signup.html">Sign Up</a> here.</p>
+      </form>
+      
+</body>
+</html>
